@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="  ApkaGullak — A comprehensive Bank Management System for managing customer accounts, banking transactions, and financial records with real-world banking operations.">
+    <meta name="keywords" content="bank management system, online banking, account management, transactions, loans">
+    <title>  ApkaGullak </title>
+    <!-- Favicon (inline SVG — no file needed) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%23F5B942'/><path d='M14 46L24 26L32 36L42 20L50 46' stroke='%230A0F1E' stroke-width='4.5' stroke-linecap='round' stroke-linejoin='round'/><circle cx='32' cy='14' r='5' fill='%230A0F1E'/></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;0,14..32,900;1,14..32,400&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons (local — avoids Edge Tracking Prevention) -->
+    <script src="lib/lucide.min.js"></script>
+
+    <!-- Chart.js (local — avoids Edge Tracking Prevention) -->
+    <script src="lib/chart.min.js"></script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/pages.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="64" height="64" rx="18" fill="#F5B942"/>
+                    <path d="M14 46L24 26L32 36L42 20L50 46" stroke="#0A0F1E" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="32" cy="14" r="5" fill="#0A0F1E"/>
+                </svg>
+            </div>
+            <h1 class="loading-title">  ApkaGullak</h1>
+            <p class="loading-sub">Your Trusted Banking Partner</p>
+            <div class="loading-bar-track">
+                <div class="loading-bar-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- App Root -->
+    <div id="app"></div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+    <!-- Modal Overlay -->
+    <div id="modal-overlay" class="modal-overlay hidden" role="dialog" aria-modal="true">
+        <div id="modal-box" class="modal-box">
+            <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">
+                <i data-lucide="x" width="20" height="20"></i>
+            </button>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- JavaScript — order matters -->
+    <script src="js/utils.js?v=1.3"></script>
+    <script src="js/db.js?v=1.3"></script>
+    <script src="js/fraud.js?v=1.3"></script>
+    <script src="js/auth.js?v=1.3"></script>
+    <script src="js/accounts.js?v=1.3"></script>
+    <script src="js/transactions.js?v=1.3"></script>
+    <script src="js/loans.js?v=1.3"></script>
+    <script src="js/admin.js?v=1.3"></script>
+    <script src="js/api.js?v=1.3"></script>
+    <script src="js/app.js?v=1.3"></script>
+</body>
+</html>
