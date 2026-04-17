@@ -6,7 +6,7 @@ ApkaGullak is a fully-featured, full-stack conceptual banking application featur
 
 - **Dual-Mode Architecture:** Operates online directly with a MySQL Express backend, and cleanly falls back to a highly reliable `localStorage` structure if the server goes offline.
 - **Admin Dashboard:** Access detailed transaction charts, grant loans, review account ledgers, securely freeze/unfreeze accounts, and credit/debit customer balances directly.
-- **Customer Portal:** Minimalist design to cleanly manage personal finances. Review transaction history, manage loans, execute instant P2P transfers, and update personal profiles.
+- **Customer Portal:** Minimalist design to cleanly manage  personal finances. Review transaction history, manage loans, execute instant P2P transfers, and update personal profiles.
 - **Automated Fraud Detection:** Identifies suspicious account actions or abnormally large transactions in real time, automatically flagging them for admin review.
 - **Smart Theming:** Automatically switches between curated Dark and Light modes based on personal preference, leveraging pure CSS variables seamlessly.
 - **Elegant Interactions:** Polished, lightweight micro-animations built entirely with CSS to ensure a tactile, responsive user journey.
