@@ -55,3 +55,7 @@ Navigate to `http://localhost:5000` to interact with ApkaGullak!
 
 ## 🛡️ License & Security Disclaimer
 This system is an educational simulation. It relies on simplified `localStorage` fallback flows rather than robust JWT hashing algorithms for user validation. It is strictly meant as an open-source development portfolio project and should not be rapidly deployed into financial production.
+
+## 👤 Author
+[Vivek Belwal](https://github.com/vivek-belwal)
+[Mayank Raj](https://github.com/poisonmunna)
