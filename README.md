@@ -2,7 +2,7 @@
 
 ApkaGullak is a fully-featured, full-stack conceptual banking application featuring a dynamic user experience, an administrative backend, and a unique offline-fallback capability that synchronizes with a MySQL database. It smoothly simulates the real-world flow of a banking environment while offering a highly responsive, premium UI.
 
-## 🚀 Features
+## 🚀 Features  
 
 - **Dual-Mode Architecture:** Operates online directly with a MySQL Express backend, and cleanly falls back to a highly reliable `localStorage` structure if the server goes offline.
 - **Admin Dashboard:** Access detailed transaction charts, grant loans, review account ledgers, securely freeze/unfreeze accounts, and credit/debit customer balances directly.
