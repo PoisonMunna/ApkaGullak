@@ -43,9 +43,6 @@ DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=securebank
 
-# Specify the default backend Admin credentials
-ADMIN_USERNAME=gullak
-ADMIN_PASSWORD=paisa
 ```
 
 ### 4. Boot Up the Application
